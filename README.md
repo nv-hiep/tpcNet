@@ -2,6 +2,34 @@
 
 ### Estimate cold HI gas fraction ( $F_{CNM}$) and opacity correction factor ( $R_{HI}$) using supervised machine learning techniques.
 
+## Title: TPCNet: Representation Learning for HI Mapping
+
+Arxiv: https://arxiv.org/ \
+ADS: https://ui.adsabs.harvard.edu/ \
+
+## Abstract
+We introduce _TPCNet_, a neural network predictor that combines Convolutional and Transformer architectures with Positional encodings, for neutral atomic hydrogen (HI) spectral analysis. Trained on synthetic datasets, our models predict cold neutral gas fraction ($f_\text{CNM}$) and HI opacity correction factor ($R_\text{HI}$) from emission spectra based on the learned relationships between the desired output parameters and observables (optically-thin column density and peak brightness). As a follow-up to Murray et al. (2020)’s shallow Convolutional Neural Network (CNN), we construct deep CNN models and compare them to _TPCNet_ models. _TPCNet_ outperforms deep CNNs, achieving a 10% average increase in testing accuracy, algorithmic (training) stability, and convergence speed. Our findings highlight the robustness of the proposed model with sinusoidal positional encoding applied directly to the spectral input, addressing perturbations in training dataset shuffling and convolutional network weight initializations. Higher spectral resolutions with increased spectral channels offer advantages, albeit with increased training time. Diverse synthetic datasets enhance model performance and generalization, as demonstrated by producing $f_\text{CNM}$ and $R_\text{HI}$ values consistent with evaluation ground truths. Applications of _TPCNet_ to observed emission data reveal strong agreement between the predictions and Gaussian decomposition-based estimates (from emission and absorption surveys), emphasizing its potential in HI spectral analysis.
+
+## Authors
+Hiep Nguyen $^{1*}$\
+Haiyang Tang $^{2}$ (Co-first author)\
+Matthew Alger $^{3}$\
+Antoine Marchal $^{1}$\
+Eric G. M. Muller $^{1}$\
+Cheng Soon Ong $^{2,4}$\
+N. M. McClure-Griffiths $^{1}$
+
+
+$^{1}$ Research School of Astronomy and Astrophysics, The Australian National University, Canberra, ACT 2611, Australia\
+$^{2}$ School of Computing, The Australian National University, Canberra, ACT 2601, Australia\
+$^{3}$ Google, Pirrama Road, Pyrmont, NSW 2009, Australia\
+$^{4}$ Data61, CSIRO, Clunies Ross Street, Acton, ACT 2601, Australia\
+
+
+
+
+
+# Project description
 $HI$: Atomic hydrogen gas\
 $H_2$: Molecular hydrogen gas\
 Velocity <-> Wavelength/Frequency: In radio astronomy, wavelength[m]/frequency[Hz] is often converted into velocity[VLSR: km/s or m/s].
