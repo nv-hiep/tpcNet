@@ -4,7 +4,7 @@
 
 ## Title: TPCNet: Representation Learning for HI Mapping
 
-Arxiv: [https://arxiv.org/ \](https://arxiv.org/abs/2411.13325)
+Arxiv: [https://arxiv.org/ \](https://arxiv.org/abs/2411.13325) \
 ADS: [https://ui.adsabs.harvard.edu/ \](https://ui.adsabs.harvard.edu/abs/2024MNRAS.tmp.2546N/abstract)
 
 ## Abstract
